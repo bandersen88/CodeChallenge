@@ -10,6 +10,11 @@
 
 Users can generate a message from an existing template or create their own.
 
+Clone the repo and run the install and start commands
+
+* `npm i`
+* `npm start`
+
 1) Existing Template
 
  ![Existing Template](existingTemplate.gif)
