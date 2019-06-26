@@ -25,7 +25,7 @@ React
 I thought React was a good choice of ui library for this project because it provides a simple solution to display a dynamically assembled output. User input is saved to state values, processed on form submit, and the final dynamically created message is saved
 to the state as well.  With the state changes, React takes care of updating the UI 
 
-(This choice did create a hiccup in the end where the template options list does not automatically update with the addition of a new template, but that could be addressed with some extra work)
+(This choice did create a hiccup in the end where the template options list does not automatically update with the addition of a new template, but that could be addressed with some extra work.  If you refresh the page and create a new template before selecting anything in the template options, then the new template will display.)
 
 Template Data Format
 
@@ -45,7 +45,7 @@ My goal for the template data format was to create something succinct with no re
 
 UI and Packages
 
-I used ReactBootstrap for a simple front end template, luxon for getting the current time in the timezone of the hotel selected, and react-bootstrap-typeahead for the select options.  I thought the typeahead search functionality was immportant for this application because, while there's only a small data set in this example, likely this application would have a large number of guests and hotels in the database, making a versatile text search important.
+I used ReactBootstrap for a simple front end template, luxon for getting the current time in the timezone of the hotel selected, and react-bootstrap-typeahead for the select options.  I thought the typeahead search functionality was important for this application because, while there's only a small data set in this example, likely this application would have a large number of guests and hotels in the database, making a versatile text search important.
 
 
 ## Testing
@@ -56,3 +56,6 @@ Since this was a small application with a short time constraint, I manually test
  
  * Automatically update template options selection list with newly created templates.
  * Add check-in and check-out times as avaiable data values on the template creation screen.
+
+
+I hope you like it!
