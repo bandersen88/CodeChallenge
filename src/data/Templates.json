@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "name": "Welcome",
+    "sequence": ["greeting", "text", "firstName", "text", "company", "text", "roomNumber", "text"],
+    "text": [" ",", and welcome to ","! Room "," is now ready for you.  Enjoy your stay, and let us know if you need anything"]
+  }
+]
